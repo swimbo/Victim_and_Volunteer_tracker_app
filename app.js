@@ -1,3 +1,5 @@
+//1st Attempt
+
 var VictimQty = prompt("How many disaster victims do you wish to enter?","e.g. 23")
 
 var vicArray1 = []
@@ -20,6 +22,10 @@ for(i = 0; i < VolunteerQty; i++){
   vicArray2.push(prompt("Their phone number","555-555-5555"))
   vicArray3.push(prompt("Their street address","e.g. 1234 Busted Home Blvd"))
 }
+
+
+//2nd Attempt
+//I need to push the informtion into n rry nd then 3 seprte objects within tht 
 
 // Requirements
 // Create a Javascript application (A Javascript-driven web page. Just set up your basic HTML and a script tag that will run your script on page load.) that allows the user to match people in need with volunteers during a disaster relief effort.
