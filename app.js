@@ -18,14 +18,13 @@ var Volunteer2 = []
 var Volunteer3 = []
 
 for(i = 0; i < VolunteerQty; i++){
-  vicArray1.push(prompt("Their name","e.g. Joe Smith"))
-  vicArray2.push(prompt("Their phone number","555-555-5555"))
-  vicArray3.push(prompt("Their street address","e.g. 1234 Busted Home Blvd"))
+  Volunteer1.push(prompt("Their name","e.g. Joe Smith"))
+  Volunteer2.push(prompt("Their phone number","555-555-5555"))
+  Volunteer3.push(prompt("Their street address","e.g. 1234 Busted Home Blvd"))
 }
 
-
 //2nd Attempt
-//I need to push the informtion into n rry nd then 3 seprte objects within tht 
+//I need to push the informtion into n rry nd then 3 seprte objects within tht
 
 // Requirements
 // Create a Javascript application (A Javascript-driven web page. Just set up your basic HTML and a script tag that will run your script on page load.) that allows the user to match people in need with volunteers during a disaster relief effort.
@@ -40,3 +39,6 @@ for(i = 0; i < VolunteerQty; i++){
 // ? Note: There is an easier way to store this info than in 3 separate arrays for each set of people. We'll learn how to do that when we cover objects. Bonus: Implement this exercise using only 2 total arrays of objects.
 //
 // At the end, print out, in a single alert, the number of persons in need, the number of volunteers, and a list of all persons in need and all volunteers. You may format this in any way that looks reasonable.
+var finalAlert = (VictimQty + ", " + VolunteerQty + ", " + vicArray1.toString() + ", " + Volunteer1.toString())
+
+alert(finalAlert)
